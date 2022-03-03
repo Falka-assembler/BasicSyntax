@@ -18,7 +18,7 @@ code segment
 
     mov ah, 10h
     int 16h
-    
+
     int 20h
     message db 'Press any key to continue$'
     newline db 10,'$'

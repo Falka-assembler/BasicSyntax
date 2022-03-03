@@ -3,7 +3,7 @@
 code segment
     org 100h
     START:
-    mov bh,10
+    mov bh, 10
     mov bl, 20
 
     add bh,bl ;bh - reciver

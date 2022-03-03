@@ -14,7 +14,7 @@ code SEGMENT para USE16 PUBLIC 'code'
     mov ax, 4C00h
     int 21h
 code ends
-data SEGMENT para USE16 PUBLIC 'dataa'
+data SEGMENT para USE16 PUBLIC 'data'
     message db 'Hello World!$'
     newline db 10,'$'
     secoundMessage db 'Hello user!$'
