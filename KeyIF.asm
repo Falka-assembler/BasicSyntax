@@ -31,7 +31,6 @@ code SEGMENT
 
         fMessage db 'Press a key!',10,'$'
         message db 'You pressed A key!',10,'$'
-       ;newline db 10,'$'
         Fmess db 'You pressed wrong key!',10,'$'
 code ends
 end START
