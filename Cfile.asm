@@ -9,6 +9,8 @@ code SEGMENT
     mov dx, offset filename
     int 21h
     jc ErrorMessage ; jump if error
+    mov Handle1,ax
+   ; mov ah,40h ; write instruction
     Quit_Prog:
         mov ah,9h
         mov dx, offset PressKeyMessage
